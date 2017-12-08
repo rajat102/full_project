@@ -1,0 +1,106 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Place Order</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="wholesaler.css" >
+        <script src="form.js"></script>
+    </head>
+	<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+
+
+<body>
+​
+
+<div class="container">
+            <div class="imagebg"></div>
+            <div class="row " style="margin-top: 50px">
+                <div class="col-md-6 col-md-offset-3 form-container">
+                    <h2>Form</h2> 
+                    
+                    <form role="form" method="post" id="reused_form">
+                        
+							<label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="mob. no.">Mobile Number:</label><br>
+    <input type="text" id="mob. no." name="Mobile number" ><br>
+
+    <label for="pincode">Pincode:</label><br>
+    <input type="text" id="pincode" name="pincode"><br>
+	 
+	  <label for="flat">Flat/House No./Floor/Building:</label><br>
+    <input type="text" id="flat" name="flat"><br>
+	
+	<label for="colony">Colony/street/locality:</label><br>
+    <input type="text" id="colony" name="colony"><br>
+	  
+    <label for="town">Town/City:</label><br>
+    <input type="text" id="town" name="town"><br>
+	
+	 <label for="state">State:</label><br>
+    <input type="text" id="state" name="state"><br>
+	
+	
+    <label for="payment">Payment Method:</label><br>
+    <select id="payment" name="payment">
+      <option>Cash on Delivery</option>
+      <option>Card Payment</option>
+	 </select><br>
+  
+    <input type="submit" value="Submit">
+						                    </form>
+                    <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Posted your feedback successfully!</h3> </div>
+                    <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
+</html>
+​
+

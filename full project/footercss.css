@@ -1,0 +1,38 @@
+background-color: white ;
+height: 800px ;
+width: 600px ;
+margin: 0px auto ;
+border: 1px solid black ;
+}
+
+.header {
+    text-align: center ;
+    padding-left: 5px ;
+}
+
+.navigation {
+text-align: center ;
+font-size: 16px ;
+font-family: verdana ;
+}
+
+.content {
+font-size: 18px ;
+font-family: verdana ;
+padding-left: 10px ;
+}
+
+.contactForm {
+font-size: 16px ;
+font-family: verdana ;
+}
+
+.footer {
+margin-top: 100px ;
+text-align: center ;
+font-size: 16px ;
+font-family: verdana ;
+width: 600px ;
+height: 50px ;
+background-color: #f6f6f6 ;
+}
